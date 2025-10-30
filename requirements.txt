@@ -1,0 +1,25 @@
+# 核心数据处理库
+pandas>=1.5.0,<2.1.0
+numpy>=1.21.0,<1.26.0
+
+# 可视化库（含matplotlib/seaborn/plotly/folium）
+matplotlib>=3.5.0,<3.8.0
+seaborn>=0.12.0,<0.13.0
+plotly>=5.10.0,<5.18.0
+folium>=0.14.0,<0.15.0
+
+# 机器学习模型库
+scikit-learn>=1.0.0,<1.3.0
+scipy>=1.7.0,<1.11.0
+
+# Dash交互仪表盘库
+dash>=2.7.0,<2.14.0
+dash-bootstrap-components>=1.2.0,<1.5.0
+
+# 数据存储与内存优化
+pickle-mixin==1.0.0
+psutil>=5.9.0  # 可选，用于内存监控
+
+# 可选：解决中文显示依赖（Windows无需额外安装，macOS/Linux需安装）
+# （macOS运行：brew install fontconfig && brew install homebrew/cask-fonts/font-simhei）
+# （Linux运行：sudo apt-get install fonts-wqy-zenhei）
