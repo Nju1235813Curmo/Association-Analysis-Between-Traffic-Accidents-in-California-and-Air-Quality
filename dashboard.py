@@ -65,7 +65,7 @@ app.layout = dbc.Container([
 
     dbc.Row([
         dbc.Col([
-            html.H4("📍 事故地理分布（Folium地图）"),
+            dbc.Col([html.H4("📍 事故地理分布（Folium地图）"), html.Div(id="map-container")], width=6),
             html.Iframe(id="map", width="100%", height="500")
         ], width=6),
         dbc.Col([
